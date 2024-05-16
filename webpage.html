@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Design Expert Page</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        max-width: 800px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-    }
-    .animation {
-        text-align: center;
-        margin-top: 30px;
-    }
-    @keyframes slidein {
-        from {
-            margin-left: 100%;
-            width: 300%;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
         }
-        to {
-            margin-left: 0%;
-            width: 100%;
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-    }
-    .animated {
-        animation: slidein 2s ease-in-out;
-    }
-</style>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .animation {
+            text-align: center;
+            margin-top: 30px;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .animated {
+            animation: spin 2s linear infinite;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <h1>Welcome to Professional Design Expert Page</h1>
-    <div class="animation">
-        <img src="https://via.placeholder.com/400" alt="Animated Image" class="animated">
+    <div class="container">
+        <h1>🎨 Artistic Webpage 🎨</h1>
+        <div class="animation">
+            <img src="https://via.placeholder.com/400" alt="Animated Image" class="animated">
+        </div>
     </div>
-</div>
 </body>
 </html>
