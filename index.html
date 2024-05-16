@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artistic Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .animation {
-            text-align: center;
-            margin-top: 30px;
-        }
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-        .animated {
-            animation: spin 2s linear infinite;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fantastic Webpage</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        text-align: center;
+    }
+    h1 {
+        font-size: 3em;
+        color: #ff6f61;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        animation: rainbow 5s infinite;
+    }
+    @keyframes rainbow {
+        0% { color: #ff6f61; }
+        20% { color: #f9c22e; }
+        40% { color: #2ac7e3; }
+        60% { color: #f27294; }
+        80% { color: #a8d08d; }
+        100% { color: #ff6f61; }
+    }
+    p {
+        font-size: 1.5em;
+        color: #2ac7e3;
+        animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎨 Artistic Webpage 🎨</h1>
-        <div class="animation">
-            <img src="https://via.placeholder.com/400" alt="Animated Image" class="animated">
-        </div>
-    </div>
+<div class="container">
+    <h1>Fantastic Webpage</h1>
+    <p>Welcome to a world of colors and animations!</p>
+</div>
 </body>
 </html>
